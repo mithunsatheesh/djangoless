@@ -1,0 +1,11 @@
+html
+	head
+		link(rel="stylesheet",type="text/css",href="/stylesheets/screen.css")
+		script(src="/javascripts/jquery-1.7.1.js")
+		script(src="/javascripts/d3.js")
+		script(src="/javascripts/d3.time.js")
+		script(src="/javascripts/require.js")
+		style
+			.chart { font-family: "helvetica neue", "helvetica", "verdana"; font-weight: 500; }.chart text { fill: black }.chart line { stroke: #ccc }.chart line.axis { stroke: #888 }.chart path { fill: none }
+	body
+		block content

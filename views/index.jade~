@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	ul
+		- for metric in metrics
+			li
+				a(href="/graph/"+metric) #{metric}

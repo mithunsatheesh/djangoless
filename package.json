@@ -1,0 +1,39 @@
+{
+  "name": "djangoless",
+  "version": "0.1.0",
+  "description": "Its a graphite frontend built directly on top of whisper and graphite, without the default django app. Removing the dependancy of graphene to have the django front end running to plot the graphs.",
+  "main": "server.js",
+  "dependencies": {
+    "glob": "~3.1.21",
+    "express": "~3.1.0",
+    "jade": "~0.28.2",
+    "requirejs": "~1.0.8",
+    "supervisor": "~0.2.0",
+    "d3": "~2.7.5",
+    "pegjs": "~0.6.2",
+    "globe": "~0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mithunsatheesh/djangoless.git"
+  },
+  "keywords": [
+    "graphite",
+    "frontend",
+    "graphene",
+    "app",
+    "graphite",
+    "d3",
+    "for",
+    "graphite"
+  ],
+  "author": "mithunsatheesh",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "19ea94cbb10ec212f0e852d46fcfb74749b4006e"
+}
